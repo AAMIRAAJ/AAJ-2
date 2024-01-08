@@ -7,33 +7,45 @@
 </head>
 <body>
     <h1>User Registration Form</h1>
+
     <p>First Name: <input type="text"><br>
     <p>Last Name: <input type="text"> 
-    <p>Password: <input type="password 16">       
-    <p>Bio: <textarea name="comment" cols="20" rows="4">Enter your comment...</textarea><br>
+    <p>Password: <input name="password" type="password" 
+       minlength="8" maxlength="16" required />       
+    <p>Bio: <textarea name="comment" cols="20" rows="4">
+       Enter your comment...</textarea><br>
     
     <fieldset>
         <legend>Gender:</legend><br>
-        <input type="radio" id="male" name="gender" value="male">Male<br>
-        <input type="radio" id="female" name="gender" value="female">Female <br>
-        <input type="radio" id="other" name="gender" value="other">Other   
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input value="female" type="radio" id="female" name="gender" />
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other"> 
+         <label for="other">Other</label>
     </fieldset>  
     
     <fieldset>
         <legend>Interests</legend><br>
-        <input type="checkbox" id="music" name="interests" value="music">Musicbr <br>
-        <input type="checkbox" id="sports" name="interests" value="sports">Sports <br>
-        <input type="checkbox" id="reading" name="interests" value="reading">Reading
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br> 
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
     </fieldset>
 
     <p>Country: 
         <select name="country">
-        <option selected value="world wide">World Wide</option>
+        <option selected value="country">Pakistan</option>
         <option value="united state">United State</option>
         <option value="china">China</option>
         <option value="pakistan">Pakistan</option>
         <option value="uk">Uk
-    </option>    
+    </option>   
+    <p>City:
+        <select name="city">
+        <option value=""></option>    
     </select>
         <p>Preferred Color:
         <select name="preferred color" multiple="multiple">
