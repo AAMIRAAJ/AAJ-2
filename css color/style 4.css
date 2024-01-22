@@ -1,36 +1,60 @@
 
-.a9 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+p.one{
+      border-color: rgb(238, 84, 84);
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;  
 }
-.a10 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.two {
+  border-style: dotted;
 }
-.a11 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.three {
+  border-color: cadetblue;
+  border-style: dashed;
 }
-.a12 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.four {
+  border-color: blue;
+  border-style: double;
 }
-.a13 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.five {
+  border-color: blueviolet;
+  border-style: groove;
+} 
+
+p.six {
+  border-color: darkblue;
+  border-style: ridge;
 }
-.a14 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.seven {
+  border-color: rgb(95, 97, 92);
+  border-style: inset;
 }
-.a15 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+
+p.eight {
+  border-color: rgb(49, 44, 37);
+  border-style: outset;
+}
+
+p.a1 {
+  border-width: 2px;
+  margin: auto;
+  padding: 20%;
+}
+
+p.a2 {
+  border-width:thick;
+  margin: auto;
+  padding: 20;
+}
+
+p.a3 {
+  border-width: 1px 4px 12px 4px;
+  margin: auto;
+  padding: 20;
 }
