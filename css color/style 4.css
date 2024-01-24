@@ -34,27 +34,49 @@ p.six {
 p.seven {
   border-color: rgb(95, 97, 92);
   border-style: inset;
+  
 }
 
+
 p.eight {
-  border-color: rgb(49, 44, 37);
+  border-width: 7px;
+  border-color: #bbbbaa #111111 #ee3e80 #0088dd;
   border-style: outset;
-}
+  border-radius:10px;
+ 
+} 
 
 p.a1 {
   border-width: 2px;
-  margin: auto;
-  padding: 20%;
+  border-style:solid;
+  padding: 2%;
+  margin: 10%;
 }
 
 p.a2 {
-  border-width:thick;
-  margin: auto;
-  padding: 20;
+  border-width: thick;
+  border-style: solid;
+  margin: 10%;
+  padding: 4%;
 }
 
 p.a3 {
-  border-width: 1px 4px 12px 4px;
-  margin: auto;
-  padding: 20;
+  border-width: 1px 4px 20px 4px;
+  border-style: solid;
+  margin: 10%;
+  padding: 6%;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  background-color:#ee3e80;
+  margin-left: 35%;
+}
+p {
+  box-sizing: border-box;
+  height: 75%;
+  width: 75%;
+  background-color:#bbbbaa;
+  margin-left: 0%;
 }
