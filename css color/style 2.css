@@ -1,0 +1,28 @@
+body{
+    background-color:hsl(257, 19%, 79%);
+}
+
+h1{
+   color:maroon;
+   background-color:aliceblue;
+   font-family: 'Rubik Burned', system-ui
+}
+
+p{
+   color:dimgrey;
+}
+ul{
+   color:dimgrey;
+}
+
+span {
+   color:green;
+   background-color: rgb(205, 238, 195); 
+}
+
+h4{
+   color:rgb(206, 153, 100);
+   background-color:aliceblue;
+}
+
+

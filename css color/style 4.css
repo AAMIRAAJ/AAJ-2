@@ -1,5 +1,5 @@
 
-p.one{
+.one{
       border-color: rgb(238, 84, 84);
     border-top-style: solid;
     border-left-style: solid;
@@ -7,38 +7,38 @@ p.one{
     border-bottom-style: solid;  
 }
 
-p.two {
+.two {
   border-style: dotted;
 }
 
-p.three {
+.three {
   border-color: cadetblue;
   border-style: dashed;
 }
 
-p.four {
+.four {
   border-color: blue;
   border-style: double;
 }
 
-p.five {
+.five {
   border-color: blueviolet;
   border-style: groove;
 } 
 
-p.six {
+.six {
   border-color: darkblue;
   border-style: ridge;
 }
 
-p.seven {
+.seven {
   border-color: rgb(95, 97, 92);
   border-style: inset;
   
 }
 
 
-p.eight {
+.eight {
   border-width: 7px;
   border-color: #bbbbaa #111111 #ee3e80 #0088dd;
   border-style: outset;
@@ -46,21 +46,21 @@ p.eight {
  
 } 
 
-p.a1 {
+.a1 {
   border-width: 2px;
   border-style:solid;
   padding: 2%;
   margin: 10%;
 }
 
-p.a2 {
+.a2 {
   border-width: thick;
   border-style: solid;
   margin: 10%;
   padding: 4%;
 }
 
-p.a3 {
+.a3 {
   border-width: 1px 4px 20px 4px;
   border-style: solid;
   margin: 10%;
@@ -78,5 +78,4 @@ p {
   height: 75%;
   width: 75%;
   background-color:#bbbbaa;
-  margin-left: 0%;
 }
