@@ -1,24 +1,36 @@
 .container {
-    width: 70%;
-    height: 50%;
+    border: 2px solid;
+    width: 450px;
+    height: 305px;
     position: relative;
+    margin: 40px;
+    
 }
-.div {
+
+.blue {
+    border: 1px solid;
+    background-color: blue;
     width: 100px;
     height: 100px;
-    border: 2px solid;
+    text-align: center;
+    
 }
-.normal {
-    background-color: blue;
-}
-.rel {
+
+.brown {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
     background-color: brown;
     position: relative;
-    top: 200px;
-    left: 200px;
+    top: 20%;
+    left: 50%;
 }
-.abs {
-    background-color: blue;
+
+.cornflowerblue {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
     position: absolute;
     left: 0px;
     bottom: 0px;
