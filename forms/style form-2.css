@@ -1,9 +1,57 @@
 h1.heading {
   color: blue;
 }
-input.submit.hover {
-    background-color:brown;
+.one {
+  color: rgb(124, 72, 245);
 }
-input.submit.active {
-    background-color: brown;
+.two {
+  color: rgb(124, 72, 245);
+}
+.three {
+  color: rgb(124, 72, 245);
+}
+.four {
+  color: rgb(124, 72, 245);
+}
+.five {
+  color: rgb(124, 72, 245);
+}
+.six {
+  color: rgb(124, 72, 245);
+}
+.a {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.b {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.c {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.d {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.e {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.f {
+  color: rgb(255, 170, 109);
+  background-color: black;
+}
+.g {
+  color: rgb(124, 72, 245);
+}
+.h {
+  color: rgb(124, 72, 245);
+}
+.i {
+  color: rgb(124, 72, 245);
+}
+.j {
+  color: rgb(124, 72, 245);
 }
