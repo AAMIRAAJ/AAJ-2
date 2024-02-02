@@ -1,15 +1,10 @@
-.container{
+  /* .container{
    width: 100px;
    height: 100px;
    position: relative;
-   border-radius: 50%;
    background-color: aquamarine;
-   
+  } */
 
- }
-.one {
-   background:rgba(red, green, blue)
-}
 
  /* .img {
    width: 70px;
@@ -36,8 +31,11 @@
 .fixed {
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: #2007eb;
     top: 100px;
     left: 30px;
     position: sticky;
-} 
+    border-radius: 50%;
+    text-align: center;
+}
+

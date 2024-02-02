@@ -1,0 +1,9 @@
+.navbar {
+    margin-bottom: 0px;
+    padding: 40px;
+    background-color: black;
+}
+.container {
+    background-color: solid red;
+    border: none;
+}
