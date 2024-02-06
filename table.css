@@ -1,0 +1,34 @@
+.container {
+    border: 3px solid black;
+    background-color: beige;
+    width: 800px;
+    height: 600px;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.box {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+    font-size: 40px;
+    text-shadow: 3px,3px,2px;
+    color: red;
+    text-shadow: 3px 3px 2px black;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    display: flex;
+    background-color:aqua;
+}
+#box2{
+    background-color: blueviolet;
+}
