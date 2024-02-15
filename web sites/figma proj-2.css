@@ -1,31 +1,33 @@
+
 .container {
-   width: 700px;
+   width: 1012px;
    height: 4101px;
-   background-color: #FFFFFF;
+   background-color: #f9f9f9;
+  
 }
 
 .nav-container {
-   width: 1440px;
-   height: 174px;
+   width: 1012px;
+   height: 87px;
+   background-color: #FFFFFF;
 }
 
 .image-1 {
-   margin: 20px 0px -22px 18px;
+   margin: 31px 0px -22px 18px;
    width: 132px;
    height: 37px;
 }
 
 .nav-link {
-   width: 37%;
+   width: 578px;
    padding-top: 0px;
-   padding-left: 455px;
+   /* padding-left: 448px; */
    display: flex;
    font-size: small;
    font-family: sans-serif;
    justify-content: space-around;
    align-items: center;
-   margin: -3px 0px 0px 12px;
-   font-size: small;
+   margin: -3px 0px 0px 434px;
 }
 
 .home {
@@ -64,7 +66,7 @@
    border: 1px solid none;
    width: 398px;
    height: 511px;
-   bottom: 1px;
+   bottom: -73px;
    left: 20px;
    position: relative
 }
@@ -72,7 +74,7 @@
 .content h1 {
    width: 414px;
    height: 136px;
-   font-size: 37px;
+   font-size: 35px;
    font-weight: 800;
    line-height: 51px;
    padding-left: 0px;
@@ -84,28 +86,25 @@
 .content p {
    font-size: 14px;
    line-height: 19px;
+   padding-top: 15px;
    padding-left: 3px;
    color: #9E9DA2;
    font-family: sans-serif;
    letter-spacing: 1px;
    line-height: 25px;
-   padding-top: 15px;
 }
 
 .image-2 {
-   width: 150px;
+   width: 180px;
    height: 45px;
-   margin: 43px 15px 1px 3px;
-   /* top: 0px;
-   left: 0px; */
+   margin: 50px 15px 1px 2px;
 }
 
 .image-3 {
-   width: 150px;
+   width: 180px;
    height: 45px;
-   margin: 20px 55px 0px 16px;
-   /* top: 0px;
-   left: 0px; */
+   /* padding-bottom: 175px; */
+   margin: -52px 0px 19px 213px;
 }
 
 .section-2 {
@@ -115,10 +114,47 @@
 
 .image-4 {
    position: relative;
-   width: 492px;
-   height: 485px;
-   bottom: 106%;
-   left: 80%;
-   /* margin: ; */
+   width: 445px;
+   height: 456px;
+   bottom: 511px;
+   left: 88%;
 }
+
+.nav-container-2 {
+   width: 955px;
+   height: 110px;
+   position: absolute;
+   top: 105%;
+   left: 28px;
+   background-color: #75BF7A;
+   /* margin: -59% 0px 19px 22px; */
+   border-radius: 5px;   
+}
+
+.content-2 p {
+   width: 262px;
+   height: 0px;
+   position: absolute;
+   top: 10px;
+   left: 55px;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;   
+}
+
+.input {
+   width: 320px;
+   height: 40px;
+   position: absolute;
+   top: 29%;
+   left: 330px;
+   color: #DADADA;
+   font-size: 13px;
+   letter-spacing: 1px;
+   padding-left: 20px;
+   border-radius: 5px;
+   
+   
+}
+
 
