@@ -10,7 +10,7 @@
 }
 
 .image-1 {
-   margin: 20px 0px -22px 40px;
+   margin: 20px 0px -22px 18px;
    width: 132px;
    height: 37px;
 }
@@ -18,7 +18,7 @@
 .nav-link {
    width: 37%;
    padding-top: 0px;
-   padding-left: 440px;
+   padding-left: 455px;
    display: flex;
    font-size: small;
    font-family: sans-serif;
@@ -75,16 +75,37 @@
    font-size: 37px;
    font-weight: 800;
    line-height: 51px;
-   padding-left: 19px;
+   padding-left: 0px;
    padding-top: 0px;
    font-family: sans-serif;
    color: black;
-   /* font-size: 61px;
-   font-weight: 800;
-   line-height: 66px;
-   letter-spacing: 0em;
-   text-align: left;
-   ; */
+}
+
+.content p {
+   font-size: 14px;
+   line-height: 19px;
+   padding-left: 3px;
+   color: #9E9DA2;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   line-height: 25px;
+   padding-top: 15px;
+}
+
+.image-2 {
+   width: 150px;
+   height: 45px;
+   margin: 43px 15px 1px 3px;
+   /* top: 0px;
+   left: 0px; */
+}
+
+.image-3 {
+   width: 150px;
+   height: 45px;
+   margin: 20px 55px 0px 16px;
+   /* top: 0px;
+   left: 0px; */
 }
 
 .section-2 {
@@ -92,10 +113,12 @@
    height: 582px;
 }
 
-.image-2 {
-   position: relative
-   width: 553px;
-   height: 582px;
-   margin: ;
+.image-4 {
+   position: relative;
+   width: 492px;
+   height: 485px;
+   bottom: 106%;
+   left: 80%;
+   /* margin: ; */
 }
 
