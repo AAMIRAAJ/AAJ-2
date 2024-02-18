@@ -1,158 +1,414 @@
-
 .container {
-   width: 1012px;
-   height: 4101px;
-   background-color: #f9f9f9;
-  
+  width: 1012px;
+  height: 4101px;
+  background-color: #f9f9f9;
 }
 
 .nav-container {
-   width: 1012px;
-   height: 87px;
-   background-color: #FFFFFF;
+  width: 1012px;
+  height: 87px;
+  background-color: #ffffff;
 }
 
 .image-1 {
-   margin: 31px 0px -22px 18px;
-   width: 132px;
-   height: 37px;
+  margin: 31px 0px -22px 18px;
+  width: 132px;
+  height: 37px;
 }
 
 .nav-link {
-   width: 578px;
-   padding-top: 0px;
-   /* padding-left: 448px; */
-   display: flex;
-   font-size: small;
-   font-family: sans-serif;
-   justify-content: space-around;
-   align-items: center;
-   margin: -3px 0px 0px 434px;
+  width: 578px;
+  padding-top: 0px;
+  /* padding-left: 448px; */
+  display: flex;
+  font-size: small;
+  font-family: sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  margin: -3px 0px 0px 434px;
 }
 
 .home {
-   position: relative;
-   left: 65px;
-   font-size: 12px;
-   color: black;
-   text-decoration: none;
+  position: relative;
+  left: 65px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
 }
 
 .how-tere-works {
-   position: relative;
-   left: 45px;
-   font-size: 12px;
-   color: black;
-   text-decoration: none;
+  position: relative;
+  left: 45px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
 }
 
 .tere-benefits {
-   position: relative;
-   left: 23px;
-   font-size: 12px;
-   color: black;
-   text-decoration: none;
+  position: relative;
+  left: 23px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
 }
 
 .halp-center {
-   background-color: #75BF7A;
-   border-radius: 1px;
-   border: none;
-   color: white;
-   padding: 5px 17px;
+  background-color: #75bf7a;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  padding: 5px 17px;
 }
 
 .section-1 {
-   border: 1px solid none;
-   width: 398px;
-   height: 511px;
-   bottom: -73px;
-   left: 20px;
-   position: relative
+  border: 1px solid none;
+  width: 398px;
+  height: 511px;
+  bottom: -73px;
+  left: 20px;
+  position: relative;
 }
 
 .content h1 {
-   width: 414px;
-   height: 136px;
-   font-size: 35px;
-   font-weight: 800;
-   line-height: 51px;
-   padding-left: 0px;
-   padding-top: 0px;
-   font-family: sans-serif;
-   color: black;
+  width: 414px;
+  height: 136px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 51px;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-family: sans-serif;
+  color: black;
 }
 
 .content p {
-   font-size: 14px;
-   line-height: 19px;
-   padding-top: 15px;
-   padding-left: 3px;
-   color: #9E9DA2;
-   font-family: sans-serif;
-   letter-spacing: 1px;
-   line-height: 25px;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-left: 3px;
+  color: #9e9da2;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .image-2 {
-   width: 180px;
-   height: 45px;
-   margin: 50px 15px 1px 2px;
+  width: 180px;
+  height: 45px;
+  margin: 50px 15px 1px 2px;
 }
 
 .image-3 {
-   width: 180px;
-   height: 45px;
-   /* padding-bottom: 175px; */
-   margin: -52px 0px 19px 213px;
+  width: 180px;
+  height: 45px;
+  margin: -52px 0px 19px 213px;
 }
 
 .section-2 {
-   width: 553px;
-   height: 582px;
+  width: 553px;
+  height: 582px;
 }
 
 .image-4 {
-   position: relative;
-   width: 445px;
-   height: 456px;
-   bottom: 511px;
-   left: 88%;
+  position: relative;
+  width: 445px;
+  height: 456px;
+  bottom: 511px;
+  left: 88%;
 }
 
 .nav-container-2 {
-   width: 955px;
-   height: 110px;
-   position: absolute;
-   top: 105%;
-   left: 28px;
-   background-color: #75BF7A;
-   /* margin: -59% 0px 19px 22px; */
-   border-radius: 5px;   
+  width: 955px;
+  height: 110px;
+  position: absolute;
+  top: 105%;
+  left: 28px;
+  background-color: #75bf7a;
+  border-radius: 5px;
 }
 
 .content-2 p {
-   width: 262px;
-   height: 0px;
-   position: absolute;
-   top: 10px;
-   left: 55px;
-   color: white;
-   font-size: 20px;
-   font-family: sans-serif;   
+  width: 262px;
+  height: 0px;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .input {
-   width: 320px;
-   height: 40px;
-   position: absolute;
-   top: 29%;
-   left: 330px;
-   color: #DADADA;
-   font-size: 13px;
-   letter-spacing: 1px;
-   padding-left: 20px;
-   border-radius: 5px;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  top: 29%;
+  left: 337px;
+  color: #dadada;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: none;
 }
 
+.drive {
+  background-color: black;
+  color: white;
+  padding: 12px 43px;
+  position: absolute;
+  top: 31px;
+  left: 72%;
+  border-radius: 5px;
+  text-align: center;
+}
 
+.intro-container {
+  background-color: #f9f9f9;
+  width: 247px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin: -40% 35%;
+}
+
+.how-1 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+.tere-2 {
+  color: #75bf7a;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+.works-3 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+.content-3 {
+  width: 415px;
+  height: 59px;
+  font-size: 27px;
+  font-family: sans-serif;
+  display: flex;
+  margin: 40% 0px 0px 27%;
+}
+
+.content-3 p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 0px;
+  margin-left: 14px;
+  color: #9e9da2;
+  display: flex;
+  text-align: center;
+}
+
+.sircle {
+  background-color: #75bf7a;
+  width: 245px;
+  height: 245px;
+  border-radius: 210px;
+  margin: 135px 0px 0px 356px;
+}
+
+.sir1 {
+  width: 230px;
+  height: 97px;
+  display: flex;
+  margin: -28% 0% 0% 10%;
+  position: relative;
+}
+
+.image-5 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 5px;
+  left: 181px;
+}
+
+.img1 {
+  width: 11px;
+  height: 22px;
+  color: #75bf7a;
+  position: relative;
+  top: 16%;
+  left: 151px;
+}
+
+.request {
+  position: relative;
+  top: 54px;
+  left: 46px;
+  color: black;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: end;
+  line-height: 0px;
+  letter-spacing: 0px;
+}
+
+.content-4 {
+  position: relative;
+  bottom: 21px;
+  right: 685px;
+  color: #9e9da2;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-align: end;
+  line-height: 15px;
+}
+
+.sir2 {
+  width: 201px;
+  height: 179px;
+  position: relative;
+  bottom: 198px;
+  left: 633px;
+}
+
+.image-6 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  bottom: -11px;
+  left: 1px;
+}
+
+.img2 {
+  width: 17px;
+  height: 22px;
+  color: #75bf7a;
+  position: relative;
+  bottom: 1%;
+  right: 34px;
+}
+
+.post-a-ride {
+  position: relative;
+  bottom: -11px;
+  right: 107px;
+  color: black;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: end;
+  line-height: 0px;
+  letter-spacing: 0px;
+}
+
+.sir2 p {
+  position: relative;
+  top: 10px;
+  right: -1px;
+  color: #9e9da2;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-align: left;
+  line-height: 15px;
+}
+
+.sir3 {
+  width: 201px;
+  height: 179px;
+  position: relative;
+  bottom: 173px;
+  left: 127px;
+}
+
+.image-7 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  bottom: 0px;
+  left: 155px;
+}
+
+.img3 {
+  width: 17px;
+  height: 22px;
+  color: #75bf7a;
+  position: relative;
+  bottom: 6%;
+  right: -119px;
+}
+
+.instant-notifications {
+  position: relative;
+  bottom: -2px;
+  left: -1px;
+  color: black;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: end;
+  line-height: 0px;
+  letter-spacing: 0px;
+}
+
+.sir3 p {
+  position: relative;
+  top: 1px;
+  right: 1px;
+  color: #9e9da2;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-align: right;
+  line-height: 15px;
+}
+
+.sir4 {
+  width: 201px;
+  height: 179px;
+  position: relative;
+  bottom: 352px;
+  left: 635px;
+}
+
+.image-8 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.img4 {
+  width: 17px;
+  height: 22px;
+  color: #75bf7a;
+  position: relative;
+  bottom: 12px;
+  right: 36px;
+}
+
+.cashless-payment {
+  position: relative;
+  bottom: -2px;
+  left: -50px;
+  color: black;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: end;
+  line-height: 0px;
+  letter-spacing: 0px;
+}
+
+.sir4 p {
+  position: relative;
+  top: 1px;
+  right: 1px;
+  color: #9e9da2;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-align: left;
+  line-height: 15px;
+}

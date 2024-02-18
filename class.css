@@ -11,8 +11,7 @@
     /* align-items: center; */
 }
 
- 
-.box {
+.box1 {
     border: 2px solid black;
     height: 200px;
     width: 200px;
@@ -25,16 +24,59 @@
     justify-content: center;
     align-items: center;
 }
-#box1 {
+
+.box2 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    font-size: 40px;
+    color: rgb(228, 26, 26);
+    text-shadow: 2px 2px 1px black;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box3 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    font-size: 40px;
+    color: rgb(228, 26, 26);
+    text-shadow: 2px 2px 1px black;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box4 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    font-size: 40px;
+    color: rgb(228, 26, 26);
+    text-shadow: 2px 2px 1px black;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box1 {
     background-color: aqua;
 }
-#box2 {
+.box2 {
     background-color: blue;
 }
-#box3 {
+.box3 {
     background-color: orange;
 }
-#box4 {
+.box4 {
     background-color: brown;
 }
 
