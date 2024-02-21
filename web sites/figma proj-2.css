@@ -1,3 +1,4 @@
+
 .container {
   width: 1012px;
   height: 4101px;
@@ -260,7 +261,7 @@
   bottom: 21px;
   right: 685px;
   color: #9e9da2;
-  font-size: 10px;
+  font-size: 11px;
   font-family: sans-serif;
   text-align: end;
   line-height: 15px;
@@ -271,7 +272,7 @@
   height: 179px;
   position: relative;
   bottom: 198px;
-  left: 633px;
+  left: 630px;
 }
 
 .image-6 {
@@ -309,7 +310,7 @@
   top: 10px;
   right: -1px;
   color: #9e9da2;
-  font-size: 10px;
+  font-size: 11px;
   font-family: sans-serif;
   text-align: left;
   line-height: 15px;
@@ -358,7 +359,7 @@
   top: 1px;
   right: 1px;
   color: #9e9da2;
-  font-size: 10px;
+  font-size: 11px;
   font-family: sans-serif;
   text-align: right;
   line-height: 15px;
@@ -369,7 +370,7 @@
   height: 179px;
   position: relative;
   bottom: 352px;
-  left: 635px;
+  left: 630px;
 }
 
 .image-8 {
@@ -407,8 +408,96 @@
   top: 1px;
   right: 1px;
   color: #9e9da2;
-  font-size: 10px;
+  font-size: 11px;
   font-family: sans-serif;
   text-align: left;
   line-height: 15px;
+}
+
+.image-9 {
+  width: 47px;
+  height: 12px;
+  position: relative;
+  bottom: 325px;
+  left: 455px;
+}
+
+.intro-2 {
+  width: 205px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin: -26% 374px;
+}
+
+.tere {
+  color: #75bf7a;
+  font-size: 26px;
+  font-weight: 0px;
+  /* display: flex;
+  justify-content: center; */
+  font-family: sans-serif;
+}
+
+.benefits {
+  color: black;
+  font-size: 26px;
+  font-weight: 0px;
+  font-family: sans-serif;
+}
+
+.box-1 {
+  background-color: #ffffff;
+  width: 725px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 28% 75px;
+}
+
+.a01 {
+  width: 107px;
+  height: 141px;
+  display: flex;
+  position: relative;
+  top: 75px;
+  left: 35px;
+  font-size: 63px;
+  line-height: 50px;
+  font-family: sans-serif;
+  color: #75bf7a;
+}
+
+.flexible {
+  width: 140px;
+  height: 0px;
+  display: flex;
+  position: relative;
+  top: -66px;
+  left: 85px;
+  font-size: 22px;
+  line-height: 23px;
+  font: bolder;
+  font-family: sans-serif;
+  color: black;
+}
+
+.box-1 p {
+  width: 450px;
+  height: 0px;
+  display: flex;
+  position: relative;
+  top: -5px;
+  left: 41px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: sans-serif;
+  color: #9e9da2;
+}
+
+.image-10 {
+  width: 173px;
+  height: 202px;
+  position: relative;
+  top: -142px;
+  left: 64%;
 }
