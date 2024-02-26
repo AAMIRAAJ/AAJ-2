@@ -1,7 +1,7 @@
 
 .container {
   width: 1012px;
-  height: 2620px;
+  height: 2725px;
   background-color: #f9f9f9;
 }
 
@@ -118,10 +118,11 @@
 }
 
 .nav-container-2 {
+  position: relative;
   width: 955px;
   height: 110px;
-  position: absolute;
-  top: 105%;
+  /* position: absolute; */
+  bottom: 22%;
   left: 28px;
   background-color: #75bf7a;
   border-radius: 5px;
@@ -169,7 +170,7 @@
   height: 45px;
   display: flex;
   justify-content: space-between;
-  margin: -40% 35%;
+  margin: -51% 35%;
 }
 
 .how-1 {
@@ -196,13 +197,13 @@
   font-size: 27px;
   font-family: sans-serif;
   display: flex;
-  margin: 40% 0px 0px 27%;
+  margin: 45% 0px 0px 27%;
 }
 
 .content-3 p {
   font-size: 15px;
   font-family: sans-serif;
-  margin-top: 0px;
+  margin-top: 58px;
   margin-left: 14px;
   color: #9e9da2;
   display: flex;
@@ -214,7 +215,7 @@
   width: 245px;
   height: 245px;
   border-radius: 210px;
-  margin: 135px 0px 0px 356px;
+  margin: 170px 0px 0px 356px;
 }
 
 .sir1 {
