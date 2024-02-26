@@ -1,17 +1,7 @@
-/* * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-} */
-
-/* html,body {
-  width: 100px;
-  height: 100px;
-} */
 
 .container {
   width: 1012px;
-  height: 4101px;
+  height: 2620px;
   background-color: #f9f9f9;
 }
 
@@ -30,7 +20,6 @@
 .nav-link {
   width: 578px;
   padding-top: 0px;
-  /* padding-left: 448px; */
   display: flex;
   font-size: small;
   font-family: sans-serif;
@@ -444,8 +433,6 @@
   color: #75bf7a;
   font-size: 26px;
   font-weight: 0px;
-  /* display: flex;
-  justify-content: center; */
   font-family: sans-serif;
 }
 
@@ -631,7 +618,8 @@
 
 .footer {
   position: relative;
-  background-color: rgb(211, 90, 90);
+  background-color: white;
+  border: 1px solid #e3e1e9;
   width: 1012px;
   height: 200px;
   margin: 81% 0%;
@@ -641,14 +629,14 @@
   position: relative;
   width: 111px;
   height: 33px;
-  top: 61px;
+  top: 86px;
   left: 73px;
 }
 
 .be-our-friend-1 {
   position: relative;
-  bottom: -0%;
-  left: -60%;
+  bottom: -16%;
+  left: -66%;
   color: black;
   font-size: 13px;
   font-weight: 800;
@@ -663,18 +651,18 @@
   height: 0px;
   display: flex;
   position: relative;
-  top: -22%;
-  left: -0%;
+  top: 16%;
+  left: 247px;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 28px;
   font-family: sans-serif;
   color: #9e9da2;
 }
 
 .be-our-friend-2 {
   position: relative;
-  bottom: -10%;
-  left: -39%;
+  bottom: -1%;
+  left: -46%;
   color: black;
   font-size: 13px;
   font-weight: 800;
@@ -689,10 +677,72 @@
   height: 0px;
   display: flex;
   position: relative;
-  top: -14%;
-  left: 6%;
+  top: 1%;
+  left: 450px;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 28px;
   font-family: sans-serif;
   color: #9e9da2;
+}
+
+.download-1 {
+  position: relative;
+  width: 120px;
+  height: 28px;
+  top: -9px;
+  left: 67%;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  
+}
+
+.download-2 {
+  position: relative;
+  width: 120px;
+  height: 28px;
+  top: -37px;
+  left: 81%;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+}
+
+.button-1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  top: -60px;
+  left: 67%;
+}
+
+.button-2 {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  top: -60px;
+  left: 807px;
+}
+
+.p-last {
+  position: relative;
+  width: 631px;
+  height: 10px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+  bottom: 802px;
+  color: #75bf7a;
 }
