@@ -696,6 +696,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 22px;
   font-family: sans-serif;
   background-color: black;
   color: white;
@@ -707,12 +708,13 @@
   position: relative;
   width: 120px;
   height: 28px;
-  top: -37px;
+  top: -59px;
   left: 81%;
   font-size: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 22px;
   background-color: black;
   border-radius: 3px;
   color: white;
@@ -722,16 +724,18 @@
   position: relative;
   width: 18px;
   height: 18px;
-  top: -60px;
+  top: -32px;
   left: 67%;
+  padding-left: 15px;
 }
 
 .button-2 {
   position: relative;
   width: 17px;
   height: 17px;
-  top: -60px;
-  left: 807px;
+  top: -81px;
+  left: 830px;
+  padding-left: 7px;
 }
 
 .p-last {
